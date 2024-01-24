@@ -1,0 +1,13 @@
+
+<div>
+  <h1>HUERTO</h1>
+  <input  type="text" [(ngModel)]="MensajeEntradaFruta">
+  <button (click)="buscar()" class="btn btn-primary">Buscar</button>
+</div>
+<div class="principal">
+    <div *ngFor="let img of listaImagenes">
+        <img class="imagen" src="{{img.url}}" width="150px" height="150px">
+      </div>
+   
+  
+</div>

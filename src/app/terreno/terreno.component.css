@@ -1,0 +1,13 @@
+
+.principal {
+    display: flex; /* Utilizamos flexbox para colocar las imágenes en una fila */
+    background-color: darkgreen;
+    height: 520px;
+    width: 800px;
+  flex-wrap: wrap;
+  }
+
+  .imagen {
+    margin-right: 5px; /* Ajusta el margen derecho según tus preferencias */
+    margin-bottom: 5px; /* Ajusta el margen inferior según tus preferencias */
+  }
